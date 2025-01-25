@@ -1,1 +1,10 @@
-hello test repo2
+git init		//initialize empty repository
+git remote add origin <ssh file>	//connect to github repo needed
+
+//add details onto files
+
+git add .		//add files to repo
+git commit -m "msg"
+
+git branch M -main
+git push origin main
